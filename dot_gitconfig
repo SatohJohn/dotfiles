@@ -1,0 +1,26 @@
+[help]
+	autocorrect = 1
+[user]
+	name = SatohJohn
+	email = b1006148@gmail.com
+[core]
+  editor = vim -c \"set fenc=utf-8\"
+  precomposeunicode = true
+  excludesfile = ~/.gitignore
+  autoCRLF = false
+  selfcrlf = input
+  whitespace = cr-at-eol
+  quotepath = false
+[url "https://"]
+  insteadOf = git://
+[url "http://"] 
+  insteadOf = git://
+[alias]
+  delete-merged-branches = git-delete-merged-branches
+  fp = !git fetch -p && git-delete-merged-branches
+  pp = !git pull -p && git-delete-merged-branches
+  tree = log --graph --oneline --decorate=full --all
+  mmtd = git-merge-master-to-develop
+[merge]
+  tool = vimdiff
+
