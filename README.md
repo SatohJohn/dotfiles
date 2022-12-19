@@ -1,8 +1,7 @@
 # 概要
 
-基本 chezmoi というツールに頼っています. https://www.chezmoi.io/
-
-なので使い方がわからなくなったらリンク先を見てください.
+移行したときに最初に使うスクリプト
+`https://github.com/chimurai/dotfiles` を参考にしてます.
 
 ## 初期構築方法
 
@@ -11,8 +10,8 @@ sh -c "$(curl -fsLS get.chezmoi.io)"
 chezmoi init https://github.com/SatohJohn/dotfiles.git
 ```
 
-## 変更があったときに更新する場合
+## 内容
 
-```sh
-chezmoi update
-```
+基本 chezmoi というツールに頼っています. https://www.chezmoi.io/user-guide/
+
+なので使い方がわからなくなったらリンク先を見てください.
