@@ -7,7 +7,7 @@
 
 ```sh
 sh -c "$(curl -fsLS get.chezmoi.io)"
-chezmoi init https://github.com/SatohJohn/dotfiles.git
+chezmoi init git@github.com:SatohJohn/dotfiles.git
 ```
 
 ## 内容
