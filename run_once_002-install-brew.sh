@@ -19,6 +19,7 @@ formulae=(
 	rbenv
 	rustup-init
 	thefuck
+	chezmoi
 )
 
 casks=(
