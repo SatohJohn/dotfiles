@@ -18,6 +18,7 @@ formulae=(
 	pyenv
 	rbenv
 	rustup-init
+	thefuck
 )
 
 casks=(
