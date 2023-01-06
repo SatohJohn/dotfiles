@@ -6,7 +6,6 @@
 [core]
   editor = vim -c \"set fenc=utf-8\"
   precomposeunicode = true
-  excludesfile = ~/.gitignore
   autoCRLF = false
   selfcrlf = input
   whitespace = cr-at-eol
