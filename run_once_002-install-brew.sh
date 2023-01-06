@@ -21,6 +21,7 @@ formulae=(
 	thefuck
 	asdf
 	chezmoi
+	podman-desktop
 )
 
 casks=(
